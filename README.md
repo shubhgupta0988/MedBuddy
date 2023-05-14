@@ -1,1 +1,1 @@
-# MediBuddy
+# MedBuddy
