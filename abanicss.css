@@ -1,0 +1,31 @@
+body {
+    background-image: url("pic3.jpg") ;
+    background-size: 1780px;
+    
+    background-repeat: no-repeat;
+    background-position:fixed;
+    z-index=-333;
+    
+
+}
+
+#div1 {
+    margin-top: 60px;
+    width:500px;
+    margin-left: 200px;
+}
+
+#btn1 {
+    border-radius: 14px;
+    margin-top: 24px;
+    padding: 5px;
+    background-image: linear-gradient(transparent,rgb(253, 246, 246));
+}
+
+#navbar-nav {
+    margin-left: auto;
+}
+.navbar-expand-sm .navbar-nav {
+    margin-left: auto !important;
+    color:seashell !important;
+}

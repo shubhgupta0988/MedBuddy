@@ -1,0 +1,61 @@
+body {
+    background-image: url("medbgl.png") ;
+    background-size: 660px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    z-index: 1;
+
+}
+
+#navbar-brand {
+    font-size: 2rem;
+    z-index: 1;
+}
+
+#navbar-nav {
+    margin-left: auto;
+    z-index: 1;
+}
+
+.navbar-expand-sm .navbar-nav {
+    margin-left: auto !important;
+    color: royalblue;
+}
+
+#div1 {
+    margin-left: 750px;
+    margin-top: 60px;
+    width: 300px;
+    z-index: 1;
+}
+
+#card1 {
+    margin-left: 750px;
+    margin-top: 60px;
+    width: 350px;
+    background:snow  ;
+    box-shadow: steelblue 2px 2px 2px;
+    border-radius: 14px;
+    padding:18px;
+    z-index: 1;
+}
+
+
+
+#nav1{
+    color:white;
+    width:150px;
+    padding: 8px;
+    z-index: 1;
+}
+
+#more_dropdown {
+    margin-right: 100px;
+    z-index: 1;
+}
+
+#toast {
+    z-index=3;
+    margin-left: 400px;
+    position: fixed top;
+}

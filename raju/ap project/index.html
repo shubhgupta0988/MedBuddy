@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            float: left;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+
+        .he {
+            text-align: center;
+        }
+        .he1{
+            margin-left: 530px;
+        }
+
+        .para {
+            margin-left: 530px;
+        }
+
+
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imge" style="margin-left: 200px; margin-right: 200px;">
+        <img class="image" src="1.jpg" alt="hospital">
+        <br>
+        <h1 class="he">About Apex Hospital</h1>
+
+        <p class="para" style="margin: right 300px;">Apex hospital has almost 8 years of experience in the healthcare sector, and is known for
+            providing quality healthcare and valuable experience to all domestic and international patients. Our
+            healthcare offerings are supported by a team of compassionate and dedicated medical professionals who have
+            rich knowledge and experience in their respective domains.</p>
+        <h3 class="he1" style="color:gray">Healthcare Landmark</h3>
+
+        <p class="para" style="color: blue;">Apex Hospital, a healthcare landmark, has been a household name to more than 50 million
+            Indians.We currently have branches in all over india. </p>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div style="margin-left: 200px;" class="column">
+            <div class="card">
+                 <img src="6.jpg" alt="image not available">
+                <h3>Overview</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="4.jpg" alt="image not available">
+                <h3>Mission,Vision and Values</h3>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="5.jpg" alt="image not available">
+                <h3>Fact sheet</h3>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <div class="row">
+        <div style="margin-left: 200px;" class="column">
+            <div class="card">
+                <img src="7.jpg" alt="image not available">
+                <h3>Infrastructure and facilities</h3>
+                
+                
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="8.jpg" alt="image not available">
+                <h3>Advanced technologies</h3>
+                
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="3.jpg" alt="image not available">
+                <h3>Founder's message</h3>
+                
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<hr style="margin-left: 200px;margin-right: 120px;">
+  <h2 style="margin-left:200px;">More about Apex</h2>
+ <div class="row">
+    <div style="margin-left: 200px;" class="column">
+        <div class="card">
+             <img src="2.jpg" alt="image not available">
+            <h3>Education</h3>
+            <p>Build your professional career</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="9.jpg" alt="image not available">
+            <h3>Medical events</h3>
+            <p>Events at Apex Hospital</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="10.jpg" alt="image not available">
+            <h3>Patient Infographics</h3>
+            <p>Information,Leaflets and Graphics</p>
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.1" height="55.9" viewBox="0 0 63.1 55.9">
+  <g id="book-appointment" transform="translate(-38.6 -12.4)">
+    <path id="Path_901" d="M93.6,16.3v6.6H91V16.3H85.8v6.6H83.2V16.3h-25v6.6H55.6V16.3H50.4v6.6H47.8V16.3H38.6V26.8h62.9V16.3Z" fill="#fff"/>
+    <path id="Path_902" d="M38.8,68.3h62.9V22.4H38.8Z" fill="#fff"/>
+    <path id="Path_903" d="M47.7,12.4h2.6v3.9H47.7Z" fill="#fff"/>
+    <path id="Path_904" d="M55.6,12.4h2.6v3.9H55.6Z" fill="#fff"/>
+    <path id="Path_905" d="M83.1,12.4h2.6v3.9H83.1Z" fill="#fff"/>
+    <path id="Path_906" d="M91,12.4h2.6v3.9H91Z" fill="#fff"/>
+    <path id="Path_907" d="M73.1,29.4H58.8V54.2h6.7l15.4-17ZM68,38H65.8v2.2H63.9V38H61.7V36.1h2.2V33.9h1.9v2.2H68V38ZM78.9,53.1,80,49.3h1.4V38.7l-15,16.5v7.3l7.5-8.2h3.5a1.508,1.508,0,0,0,1.5-1.2Zm.8-9-1.1,1.1-1.1-1.1Z" fill="#007d9e"/>
+  </g>
+</svg>
